@@ -4,3 +4,6 @@ https://api.kanye.rest/
 https://sv443.net/jokeapi/v2/
 
 https://openweathermap.org/current
+
+Examples:
+https://v2.jokeapi.dev/joke/Programming
