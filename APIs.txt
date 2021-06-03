@@ -19,3 +19,6 @@ https://v2.jokeapi.dev/joke/Programming?contains=debugging
 
 3]For Blacklisting:
 https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw&contains=debugging
+
+4]For single part jokes:
+https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw&type=single&contains=debugging
