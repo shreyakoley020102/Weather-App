@@ -12,3 +12,7 @@ end point: https://v2.jokeapi.dev/joke/
 
 2]Including parameters:
 https://v2.jokeapi.dev/joke/Programming?contains=debugging
+
+
+3]For Blacklisting:
+https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw&contains=debugging
