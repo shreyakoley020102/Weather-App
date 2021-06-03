@@ -8,3 +8,7 @@ https://openweathermap.org/current
 Examples:
 1]https://v2.jokeapi.dev/joke/Programming
 end point: https://v2.jokeapi.dev/joke/
+
+
+2]Including parameters:
+https://v2.jokeapi.dev/joke/Programming?contains=debugging
