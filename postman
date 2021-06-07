@@ -1,3 +1,5 @@
 q: Paris
 appid: 02e242ef9fee0c3a2d7c8330fa5c3049
 units: metric
+
+api.openweathermap.org/data/2.5/weather?q=Paris&appid=02e242ef9fee0c3a2d7c8330fa5c3049&units=metric
