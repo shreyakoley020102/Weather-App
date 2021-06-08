@@ -2,4 +2,63 @@ q: Paris
 appid: 02e242ef9fee0c3a2d7c8330fa5c3049
 units: metric
 
+
+
+
+
 api.openweathermap.org/data/2.5/weather?q=Paris&appid=02e242ef9fee0c3a2d7c8330fa5c3049&units=metric
+
+
+
+
+
+
+
+
+// 20210608213904
+// http://api.openweathermap.org/data/2.5/weather?q=Paris&appid=02e242ef9fee0c3a2d7c8330fa5c3049&units=metric
+
+{
+  "coord": {
+    "lon": 2.3488,
+    "lat": 48.8534
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 25.32,
+    "feels_like": 25.08,
+    "temp_min": 23.39,
+    "temp_max": 26.71,
+    "pressure": 1021,
+    "humidity": 45
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 0.45,
+    "deg": 40,
+    "gust": 3.13
+  },
+  "clouds": {
+    "all": 0
+  },
+  "dt": 1623168521,
+  "sys": {
+    "type": 2,
+    "id": 2012208,
+    "country": "FR",
+    "sunrise": 1623124085,
+    "sunset": 1623181891
+  },
+  "timezone": 7200,
+  "id": 2988507,
+  "name": "Paris",
+  "cod": 200
+}
