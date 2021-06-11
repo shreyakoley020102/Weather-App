@@ -13,10 +13,11 @@ app.get("/", function (req, res) {
     response.on("data", function (data) {
       const weatherData = JSON.parse(data);
       console.log(weatherData);
+      const temp = weatherData.main.temp;
+      res.send("The temperature in Paris is " + temp + " degree Celsius.");
+      // const weatherDescription = weatherData.weather[0].description;
     });
   });
-
-  res.send("Server is running");
 });
 
 app.listen(3000, function () {
