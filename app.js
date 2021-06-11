@@ -14,7 +14,12 @@ app.get("/", function (req, res) {
       const weatherData = JSON.parse(data);
       console.log(weatherData);
       const temp = weatherData.main.temp;
-      res.send("The temperature in Paris is " + temp + " degree Celsius.");
+      const weatherDescription = weatherData.weather[0].description;
+      res.write("<p>The weather is currently " + weatherDescription + "<p>");
+      res.write(
+        "<h1>The temperature in Paris is " + temp + " degree Celsius.</h1>"
+      );
+      res.send();
       // const weatherDescription = weatherData.weather[0].description;
     });
   });
